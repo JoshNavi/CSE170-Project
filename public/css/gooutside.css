@@ -1,8 +1,7 @@
 .splash {
 	background: url("../images/splash1.jpg");
 	background-repeat: no-repeat;
-	background-position: left;
-	background-position: top;
+	background-size: cover;
 }
 
 .navbar {
