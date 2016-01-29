@@ -1,24 +1,34 @@
-.banner {
+.navbar {
 	position: relative;
 	background: none;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	z-index: 999;
 }
 
-.banner:after {
-     content:"";
-     color: green;
-     opacity: 0.2;
-     top: 0;
-     left: 0;
-     bottom: 0;
-     right: 0;
-     position: absolute;
-     z-index: -1;
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #4CAF50;
 }
 
-.jumbotron p {
-     color: #6e6e6e;
+.navbar li {
+    float: left;
 }
 
-.project a {
-     text-align: center;
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
 }
