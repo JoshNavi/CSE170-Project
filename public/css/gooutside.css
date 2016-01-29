@@ -5,7 +5,7 @@
 
 .banner:after {
      content:"";
-     background-color: green;
+     color: green;
      opacity: 0.2;
      top: 0;
      left: 0;
