@@ -1,3 +1,10 @@
+.splash {
+	background: url("../images/splash1.jpg");
+	background-repeat: no-repeat;
+	background-position: left;
+	background-position: top;
+}
+
 .navbar {
 	position: fixed;
 	background: none;
