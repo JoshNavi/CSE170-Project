@@ -11,6 +11,11 @@ body {
 	min-height: 100%;
 }
 
+.splashbuttons {
+	position: relative;
+	bottom: 20%;
+}
+
 .navbar {
 	position: fixed;
 	background: none;
