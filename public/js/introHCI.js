@@ -3,9 +3,6 @@
 // Call this function when the page loads (the "ready" event)
 $(document).ready(function() {
 	initializePage();
-	console.log("suh dude");
-	var imgindex = Math.floor((Math.random() * 2) + 2);
-	$('html').css('background', "../images/splash" + imgindex + ".jpg");
 })
 
 /*
@@ -13,4 +10,7 @@ $(document).ready(function() {
  */
 function initializePage() {
 	// add any functionality and listeners you want here
+	console.log("suh dude");
+	var imgindex = Math.floor((Math.random() * 2) + 2);
+	$('html').css('background', "../images/splash" + imgindex + ".jpg");
 }
