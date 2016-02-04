@@ -20,28 +20,25 @@
 
 <body>
 	<div class="container">
-		<!-- h1 through h6 are headers. The higher the number, the smaller the header -->
-		<!-- p means paragraph -->
 
-		<div class="logo">
-			GO!outside
-		</div>
-
-		<div class="splashbuttons">
-			<a href="/login">
-				<button type="button" class="btn btn-default btn-lg btn-block">Login</button>
-			</a>
-			<button type="button" class="btn btn-default btn-lg btn-block">SignUp</button>
-		</div>
-
-		<!--
 		<div class="navbar">
 			<ul>
-			  <li><a href="/">GO!outside</a></li>
+			  <li>Login</li>
 			</ul>
 		</div>
-		-->
 
+		<form id="addFriendForm" role="form" method="get" action="/add">
+			<h3>Enter your login info</h3>
+			<div class="form-group">
+				<label for="userName">User Name:</label>
+				<input type="text" class="form-control" id="userName" placeholder="userName" name="userName">
+			</div>
+			<div class="form-group">
+				<label for="description">Password:</label>
+				<input type="password" class="form-control" id="password" placeholder="Password" name="password">
+			</div>
+		<input type="submit" id="submitBtn" class="btn btn-default" value="Add the friend"></input>
+	</form>
 
 	</div>
 
