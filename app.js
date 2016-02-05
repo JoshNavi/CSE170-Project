@@ -13,6 +13,7 @@ var index = require('./routes/index');
 var login = require('./routes/login');
 var signup = require('./routes/signup');
 var homepage = require('./routes/homepage');
+var map = require('./routes/map');
 // Example route
 // var user = require('./routes/user');
 
@@ -43,6 +44,7 @@ app.get('/', index.view);
 app.get('/login', login.view);
 app.get('/signup', signup.view);
 app.get('/homepage', homepage.view);
+app.get('/map', map.view);
 // Example route
 // app.get('/users', user.list);
 
