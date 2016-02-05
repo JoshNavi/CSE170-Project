@@ -73,15 +73,27 @@ a {
 		font-weight: bold;
 }
 
-.mat-btn {
-	background-color: #4CAF50;
+.mat-card {
 	color: white;
 	text-align: center;
   border-radius: 2px;
   display: block;
   margin: 1rem auto;
   position: relative;
-	height: 40px;
+	height: 400px;
+  width: 90%;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.mat-btn {
+	background-color: #4CAF50;
+	color: white;
+	text-align: center;
+  border-radius: 2px;
+  display: block;
+  margin: 2rem auto;
+  position: relative;
+	height: 50px;
   width: 80%;
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
