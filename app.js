@@ -15,6 +15,7 @@ var signup = require('./routes/signup');
 var homepage = require('./routes/homepage');
 var map = require('./routes/map');
 var places = require('./routes/places');
+var profile = require('./routes/profile');
 // Example route
 // var user = require('./routes/user');
 
@@ -47,6 +48,7 @@ app.get('/signup', signup.view);
 app.get('/homepage', homepage.view);
 app.get('/map', map.view);
 app.get('/places', places.view);
+app.get('profile', profile.view);
 // Example route
 // app.get('/users', user.list);
 
