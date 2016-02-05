@@ -8,6 +8,7 @@
 	<link href="/css/bootstrap.min.css" rel="stylesheet">
 	<link href="/css/bootstrap-theme.min.css" rel="stylesheet">
 	<link href="/css/gooutside.css" rel="stylesheet">
+	<link href="css/materialize.min.css" rel="stylesheet"  media="screen,projection"/>
 	<!-- this is a comment in HTML -->
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -20,29 +21,21 @@
 
 <body>
 	<div class="container">
-		<!-- h1 through h6 are headers. The higher the number, the smaller the header -->
-		<!-- p means paragraph -->
 
-		<div class="logo">
-			GO!outside
-		</div>
+		<nav>
+	    <div class="nav-wrapper">
+	      <a href="/homepage" class="brand-logo">GO!outside</a>
+	      <a href="#" data-activates="mobile-demo" class="button-collapse">
+					<i class="material-icons">menu</i>
+				</a>
+	      <ul class="right hide-on-med-and-down">
+	      </ul>
+	      <ul class="side-nav" id="mobile-demo">
+	      </ul>
+	    </div>
+	  </nav>
 
-		<div class="splashbuttons">
-			<a href="/homepage">
-				<button type="button" class="btn btn-default btn-lg btn-block">Login</button>
-			</a>
-			<a href="/signup">
-				<button type="button" class="btn btn-default btn-lg btn-block">SignUp</button>
-			</A>
-		</div>
 
-		<!--
-		<div class="navbar">
-			<ul>
-			  <li><a href="/">GO!outside</a></li>
-			</ul>
-		</div>
-		-->
 
 
 	</div>
@@ -51,6 +44,6 @@
 	<script src="/js/bootstrap.min.js"></script>
 	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 	<script src="/js/splash.js"></script>
-
+	<script src="js/materialize.min.js"></script>
 </body>
 </html>
