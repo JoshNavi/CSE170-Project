@@ -5,6 +5,9 @@ html {
 	-o-background-size: cover;
 	background-size: cover;
 	min-height: 100%;
+}
+
+a {
 	text-decoration: none;
 }
 
