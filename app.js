@@ -50,7 +50,7 @@ app.get('/homepage', homepage.view);
 app.get('/map', map.view);
 app.get('/places', places.view);
 app.get('/profile', profile.view);
-app.get('/places/:id', profile.view);
+app.get('/places/:id', place.view);
 // Example route
 // app.get('/users', user.list);
 
