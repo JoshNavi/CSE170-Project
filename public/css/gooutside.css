@@ -77,7 +77,16 @@ body {
 		font-weight: bold;
 }
 
-/* Change the link color to #111 (black) on hover */
-li a:hover {
-    background-color: #111;
+.mat-btn {
+  background: #fff;
+  border-radius: 2px;
+  display: block;
+  margin: 1rem;
+  position: relative;
+	height: 100px;
+  width: 30%;
+	padding-left: auto;
+	padding-right: auto;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.2s ease-in-out;
 }
