@@ -1,4 +1,4 @@
-html {
+.splash{
 	background: url("../images/splash2.jpg") no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -80,6 +80,7 @@ body {
 .mat-btn {
 	background-color: #4CAF50;
 	color: white;
+	text-align: center;
   border-radius: 2px;
   display: block;
   margin: 1rem auto;
