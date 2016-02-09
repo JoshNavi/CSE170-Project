@@ -6,13 +6,36 @@ $(document).ready(function() {
 
 	//listeners
 })
-
 /*
  * Function that is called when the document is ready.
  */
 function initializePage() {
-	// add any functionality and listeners you want here
-	console.log("suh dude");
-	var imgindex = Math.floor((Math.random() * 2) + 2);
-	$('html').css('background', "../images/splash" + imgindex + ".jpg");
+	$('.carousel').slick({
+	  centerMode: true,
+	  centerPadding: '60px',
+	  slidesToShow: 1,
+		slidesToScroll: 1,
+		autoplay: true,
+		autoplaySpeed: 2000,
+	  responsive: [
+	    {
+	      breakpoint: 768,
+	      settings: {
+	        arrows: false,
+	        centerMode: true,
+	        centerPadding: '40px',
+	        slidesToShow: 1
+	      }
+	    },
+	    {
+	      breakpoint: 480,
+	      settings: {
+	        arrows: false,
+	        centerMode: true,
+	        centerPadding: '40px',
+	        slidesToShow: 1
+	      }
+	    }
+	  ]
+	});
 }
