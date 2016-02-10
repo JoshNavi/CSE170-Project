@@ -10,7 +10,7 @@
 	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 
-.list-place-img {
+.list-place img {
 	display: inline-block;
 	position: relative;
 	float: left;
