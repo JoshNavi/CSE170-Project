@@ -11,7 +11,10 @@
 }
 
 .list-place-img {
-
+	display: inline-block;
+	position: relative;
+	float: left;
+	height: 100px;
 }
 
 .list-place-name {
