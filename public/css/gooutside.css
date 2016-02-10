@@ -55,7 +55,7 @@ a {
 		font-weight: bold;
 }
 
-.navbar li a {
+.navbar a li{
     display: block;
     color: white;
     text-align: center;
