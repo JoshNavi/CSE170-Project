@@ -38,5 +38,6 @@ var pl = {
 exports.view = function(req, res){
   console.log(places);
   console.log(pl);
-  res.render('places', places);
+  console.log("Anything pls");
+  res.render('places', pl);
 };
