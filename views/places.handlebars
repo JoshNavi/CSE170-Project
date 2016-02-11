@@ -32,8 +32,18 @@
 			</ul>
 		</div>
 
-		<div class="list-place">
-			<a href="/places/1">
+		{{#each places}}
+		<div class="list-place" id="{{id}}">
+			<a href="/places/{{id}}">
+				<img src="{{image}}" />
+				<div class="list-place-name">{{name}}</div>
+			</a>
+				<div class="list-place-rating">{{rating}}</div>
+		</div>
+		{{/each}}
+
+		<!-- <div class="list-place">
+			<a href="/places/2">
 				<img src="http://www.planwallpaper.com/static/images/4-Nature-Wallpapers-2014-1_cDEviqY.jpg" />
 				<div class="list-place-name">Name of place</div>
 			</a>
@@ -41,16 +51,8 @@
 		</div>
 
 		<div class="list-place">
-			<a href="/places/2">
-				<img class="list-place-image" src="http://www.planwallpaper.com/static/images/4-Nature-Wallpapers-2014-1_cDEviqY.jpg" />
-				<div class="list-place-name">Name of place</div>
-			</a>
-				<div class="list-place-rating">Rating</div>
-		</div>
-
-		<div class="list-place">
 			<a href="/places/3">
-				<img class="list-place-image" src="http://www.planwallpaper.com/static/images/4-Nature-Wallpapers-2014-1_cDEviqY.jpg" />
+				<img src="http://www.planwallpaper.com/static/images/4-Nature-Wallpapers-2014-1_cDEviqY.jpg" />
 				<div class="list-place-name">Name of place</div>
 			</a>
 				<div class="list-place-rating">Rating</div>
@@ -58,7 +60,7 @@
 
 		<div class="list-place">
 			<a href="/places/4">
-				<img class="list-place-image" src="http://www.planwallpaper.com/static/images/4-Nature-Wallpapers-2014-1_cDEviqY.jpg" />
+				<img src="http://www.planwallpaper.com/static/images/4-Nature-Wallpapers-2014-1_cDEviqY.jpg" />
 				<div class="list-place-name">Name of place</div>
 			</a>
 				<div class="list-place-rating">Rating</div>
@@ -66,12 +68,11 @@
 
 		<div class="list-place">
 			<a href="/places/5">
-				<img class="list-place-image" src="http://www.planwallpaper.com/static/images/4-Nature-Wallpapers-2014-1_cDEviqY.jpg" />
+				<img src="http://www.planwallpaper.com/static/images/4-Nature-Wallpapers-2014-1_cDEviqY.jpg" />
 				<div class="list-place-name">Name of place</div>
 			</a>
 				<div class="list-place-rating">Rating</div>
-		</div>
-
+		</div> -->
 
 	</div>
 

@@ -1,8 +1,6 @@
 
-/*
- * GET home page.
- */
+var data = require('../places.json');
 
 exports.view = function(req, res){
-  res.render('places');
+  res.render('places', data);
 };
