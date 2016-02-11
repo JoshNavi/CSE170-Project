@@ -1,9 +1,15 @@
 function initMap() {
-  var myLatLng = {lat: -25.363, lng: 131.044};
+  var myLatLng = {lat:32.878094, lng:-117.237586};
 
   var map = new google.maps.Map(document.getElementById('map'), {
-    zoom: 4,
-    center: myLatLng
+    zoom: 14,
+    center: myLatLng,
+    disableDefaultUI: true,
+    mapTypeControl: true,
+    mapTypeControlOptions: {
+      style: google.maps.MapTypeControlStyle.HORIZONTAL_BAR,
+      position: google.maps.ControlPosition.TOP_CENTER
+    }
   });
 
   var marker = new google.maps.Marker({
