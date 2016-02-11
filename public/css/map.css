@@ -6,6 +6,11 @@ body, html {
   padding: 0;
 }
 
+.fill {
+  height: 100%;
+  min-height: 100%;
+}
+
 #map {
   position: relative;
 	height: 90%;
