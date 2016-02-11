@@ -1,6 +1,6 @@
 
-var data = require('../places.json');
+var places = require('../places.json');
 
 exports.view = function(req, res){
-  res.render('places', data);
+  res.render('places', places);
 };
