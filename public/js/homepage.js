@@ -10,6 +10,8 @@ $(document).ready(function() {
  * Function that is called when the document is ready.
  */
 function initializePage() {
+
+	// Set up the carousel
 	$('.carousel').slick({
 	  centerMode: true,
 	  centerPadding: '60px',
@@ -39,4 +41,6 @@ function initializePage() {
 	    }
 	  ]
 	});
+
+
 }
