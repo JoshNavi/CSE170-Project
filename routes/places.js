@@ -8,5 +8,5 @@ exports.view = function(req, res){
   console.log(places);
   console.log(pl);
   console.log("Anything pls");
-  res.render('places', places);
+  res.render('places', pl);
 };
