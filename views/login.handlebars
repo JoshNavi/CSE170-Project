@@ -33,7 +33,7 @@
 
 		<div class="container">
 
-			<form id="loginForm" role="form" method="get" action="/">
+			<form id="loginForm" method="post" action="/userlogin">
 				<h3>Enter your login info</h3>
 				<div class="form-group">
 					<label for="userName">User Name:</label>
@@ -43,9 +43,7 @@
 					<label for="description">Password:</label>
 					<input type="password" class="form-control" id="password" placeholder="Password" name="password">
 				</div>
-				<a href="/homepage">
-					<button type="button" class="btn btn-default btn-lg btn-block">Login</button>
-				</a>
+				<input type="submit" value="Login">
 			</form>
 		</div>
 
