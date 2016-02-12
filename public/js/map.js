@@ -5,11 +5,6 @@ function initMap() {
     zoom: 14,
     center: myLatLng,
     disableDefaultUI: true
-    // mapTypeControl: true,
-    // mapTypeControlOptions: {
-    //   style: google.maps.MapTypeControlStyle.HORIZONTAL_BAR,
-    //   position: google.maps.ControlPosition.TOP_LEFT
-    }
   });
 
   var marker = new google.maps.Marker({
