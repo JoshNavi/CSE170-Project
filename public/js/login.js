@@ -1,3 +1,20 @@
+$(document).ready(function() {
+	initializePage();
+
+	//listeners
+})
+/*
+ * Function that is called when the document is ready.
+ */
+function initializePage() {
+  var input = $('.form').find('input, textarea');
+  var label = input.prev('label');
+
+  if( !input.val() === '') {
+    label.removeClass('active highlight');
+  }
+}
+
 $('.form').find('input, textarea').on('keyup blur focus', function (e) {
 
   var $this = $(this),
