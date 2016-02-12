@@ -10,8 +10,21 @@ function initializePage() {
   var input = $('.form').find('input, textarea');
   var label = input.prev('label');
 
+  var usr = $('#usr');
+  var pw = $('#pw');
+
+  if( !(usr.val() === '') ) {
+    usr.addClass('active');
+  }
+
+  if( !(pw.val() === '') ) {
+    pw.addClass('active');
+  }
+
+  console.log(label);
+
   if( !input.val() === '') {
-    label.addClass('active highlight');
+    label.addClass('active');
   }
 }
 
@@ -19,6 +32,8 @@ $('.form').find('input, textarea').on('keyup blur focus', function (e) {
 
   var $this = $(this),
       label = $this.prev('label');
+
+      console.log(label);
 
   if (e.type === 'keyup') {
 		if ($this.val() === '') {
