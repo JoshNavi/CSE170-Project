@@ -1,3 +1,5 @@
+@import "compass/css3";
+
 $body-bg: #c1bdba;
 $form-bg: #13232f;
 $white: #ffffff;
@@ -37,7 +39,6 @@ a {
 }
 
 .form {
-  position: absolute;
   background:rgba($form-bg,.9);
   padding: 40px;
   max-width:600px;
