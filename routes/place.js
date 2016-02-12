@@ -7,5 +7,5 @@ exports.view = function(req, res){
     'place': places[req.params.id]
   };
 
-  res.render('place', thePlace);
+  res.render('place', data);
 };
