@@ -4,11 +4,11 @@ function initMap() {
   var map = new google.maps.Map(document.getElementById('map'), {
     zoom: 14,
     center: myLatLng,
-    disableDefaultUI: true,
-    mapTypeControl: true,
-    mapTypeControlOptions: {
-      style: google.maps.MapTypeControlStyle.HORIZONTAL_BAR,
-      position: google.maps.ControlPosition.TOP_CENTER
+    disableDefaultUI: true
+    // mapTypeControl: true,
+    // mapTypeControlOptions: {
+    //   style: google.maps.MapTypeControlStyle.HORIZONTAL_BAR,
+    //   position: google.maps.ControlPosition.TOP_LEFT
     }
   });
 
