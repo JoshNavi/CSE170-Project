@@ -11,7 +11,7 @@ function initializePage() {
   var label = input.prev('label');
 
   if( !input.val() === '') {
-    label.removeClass('active highlight');
+    label.addClass('active highlight');
   }
 }
 
