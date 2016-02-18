@@ -8,6 +8,7 @@
 	<link href="/css/bootstrap.min.css" rel="stylesheet">
 	<link href="/css/bootstrap-theme.min.css" rel="stylesheet">
 	<link href="/css/gooutside.css" rel="stylesheet">
+	<link href="/css/places.css" rel="stylesheet">
 	<link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,600italic,300' rel='stylesheet' type='text/css'>
 
 </head>
@@ -25,8 +26,6 @@
 			</ul>
 		</div>
 
-		Something something pls work!
-
 		<div class="profile-details">
 			<div class="name">
 				{{profile.name}}
@@ -40,7 +39,7 @@
 		<div class="places" />
 			My places:
 			<br>
-			
+
 			{{#each profile.places}}
 			<div class="list-place" id="{{id}}">
 				<a href="/places/{{id}}">
