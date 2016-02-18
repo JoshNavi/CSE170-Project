@@ -1,8 +1,37 @@
 [
   {
-    "id": 1,
+    "id": 0,
     "name": "Josh N",
     "email": "jnavi@ucsd.edu",
+    "hasImage": false,
+    "image": "",
+    "description": "Co-Founder and creater of GO!outside",
+    "places": [
+      {
+        "id": 3,
+        "name": "Salk Institute",
+        "description": "A very popular spot for photographers. The institution may look a bit dreary at certain angles, but the immense view of the Pacific and institute's symmetry provide an amazing view",
+        "image" : "/images/salk.jpg" ,
+        "ratings" : {
+          "overall": 5,
+          "secluded": 5,
+          "romantic": 5,
+          "quiet": 5
+        }
+      },
+      {
+        "id": 4,
+        "name": "Scripps Swings",
+        "description": "Hidden swings sets located near the Scripps Institute of Oceanography provide a breathtaking view of the Pacific Coast.",
+        "image" : "/images/sioswings.jpg" ,
+        "ratings" : {
+          "overall": 5,
+          "secluded": 5,
+          "romantic": 5,
+          "quiet": 5
+        }
+      }
+    ],
     "pass": "password"
   }
 ]

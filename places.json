@@ -1,6 +1,6 @@
 [
   {
-    "id": 1,
+    "id": 0,
     "name": "Boulder Bear",
     "description": "Part of the UCSD Stuart Collection, this bear is completely made with boulders from the surrounding San Diego area.",
     "image" : "/images/bear.jpg" ,
@@ -12,7 +12,7 @@
     }
   },
   {
-    "id": 2,
+    "id": 1,
     "name": "Mushroom House",
     "description": "Located along Black's Beach, this mushroom house was originally called Pavilion and designed as a guest house.",
     "image" : "/images/mushyhouse.jpg" ,
@@ -24,7 +24,7 @@
     }
   },
   {
-    "id": 3,
+    "id": 2,
     "name": "Red Chair",
     "description": "A large red chair located in the heart of Revelle College",
     "image" : "/images/redchair.jpg" ,
@@ -36,7 +36,7 @@
     }
   },
   {
-    "id": 4,
+    "id": 3,
     "name": "Salk Institute",
     "description": "A very popular spot for photographers. The institution may look a bit dreary at certain angles, but the immense view of the Pacific and institute's symmetry provide an amazing view",
     "image" : "/images/salk.jpg" ,
@@ -48,7 +48,7 @@
     }
   },
   {
-    "id": 5,
+    "id": 4,
     "name": "Scripps Swings",
     "description": "Hidden swings sets located near the Scripps Institute of Oceanography provide a breathtaking view of the Pacific Coast.",
     "image" : "/images/sioswings.jpg" ,
