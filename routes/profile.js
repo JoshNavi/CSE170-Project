@@ -1,9 +1,11 @@
 
-var profile = require('../users.json');
-var data = {
-  'profile': profile[0]
-};
+var profiles = require('../users.json');
+
 
 exports.view = function(req, res){
+  var data = {
+    'profile': profiles[0]
+  };
+  
   res.render('profile', data);
 };
