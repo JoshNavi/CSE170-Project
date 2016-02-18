@@ -41,7 +41,16 @@ a {
 	z-index: 999;
 }
 
-.navbar ul {
+.navbar ul .left{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #4CAF50;
+}
+
+.navbar ul .right{
+		float: right;
     list-style-type: none;
     margin: 0;
     padding: 0;
