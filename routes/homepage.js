@@ -12,23 +12,23 @@ exports.view = function(req, res){
       },
       {
         "id": 1,
-        "name": "/images/midgethouse.jpg"
-      },
-      {
-        "id": 2,
         "name": "/images/mushyhouse.jpg"
       },
       {
-        "id": 3,
+        "id": 2,
         "name": "/images/redchair.jpg"
       },
       {
-        "id": 4,
+        "id": 3,
         "name": "/images/salk.jpg"
       },
       {
-        "id": 5,
+        "id": 4,
         "name": "/images/sioswings.jpg"
+      },
+      {
+        "id": 5,
+        "name": "/images/midgethouse.jpg"
       }
     ]
   }
