@@ -14,16 +14,10 @@ function initializePage() {
   var pw = $('#pw');
 
   if( !(usr.val() === '') ) {
-    usr.addClass('active');
+    label.addClass('active');
   }
 
   if( !(pw.val() === '') ) {
-    pw.addClass('active');
-  }
-
-  console.log(label);
-
-  if( !input.val() === '') {
     label.addClass('active');
   }
 }
