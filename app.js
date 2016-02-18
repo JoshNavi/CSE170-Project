@@ -51,7 +51,7 @@ app.get('/homepage', homepage.view);
 app.get('/map', map.view);
 app.get('/places', places.view);
 app.get('/places/:id', place.view);
-app.get('/uploads', upload.view);
+app.get('/uploads', uploads.view);
 
 // Example route
 // app.get('/users', user.list);
