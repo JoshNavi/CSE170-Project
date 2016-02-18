@@ -1,51 +1,75 @@
 [
   {
     "id": 1,
-    "name": "Place 1",
-    "description": "This is a dope place",
-    "image": "http://www.planwallpaper.com/static/images/4-Nature-Wallpapers-2014-1_cDEviqY.jpg",
-    "rating": 5
+    "name": "Boulder Bear",
+    "description": "Part of the UCSD Stuart Collection, this bear is completely made with boulders from the surrounding San Diego area.",
+    "image" : { "/images/bear.jpg" },
+    "ratings" : {
+      "overall": 5,
+      "secluded": 5,
+      "romantic": 5,
+      "quiet": 5
+    }
   },
   {
     "id": 2,
-    "name": "Place 2",
-    "description": "This is a dope place",
-    "image": "http://www.planwallpaper.com/static/images/4-Nature-Wallpapers-2014-1_cDEviqY.jpg",
-    "rating": 5
+    "name": "Mushroom House",
+    "description": "Located along Black's Beach, this mushroom house was originally called Pavilion and designed as a guest house.",
+    "image" : { "/images/mushyhouse.jpg" },
+    "ratings" : {
+      "overall": 5,
+      "secluded": 5,
+      "romantic": 5,
+      "quiet": 5
+    }
   },
   {
     "id": 3,
-    "name": "Place 3",
-    "description": "This is a dope place",
-    "image": "http://www.planwallpaper.com/static/images/4-Nature-Wallpapers-2014-1_cDEviqY.jpg",
-    "rating": 5
-  },
+    "name": "Red Chair",
+    "description": "A large red chair located in the heart of Revelle College",
+    "image" : { "/images/redchair.jpg" },
+    "ratings" : {
+      "overall": 5,
+      "secluded": 5,
+      "romantic": 5,
+      "quiet": 5
+    }
+  }
   {
     "id": 4,
-    "name": "Place 4",
-    "description": "This is a dope place",
-    "image": "http://www.planwallpaper.com/static/images/4-Nature-Wallpapers-2014-1_cDEviqY.jpg",
-    "rating": 5
-  },
+    "name": "Salk Institute",
+    "description": "A very popular spot for photographers. The institution may look a bit dreary at certain angles, but the immense view of the Pacific and institute's symmetry provide an amazing view",
+    "image" : { "/images/salk.jpg" },
+    "ratings" : {
+      "overall": 5,
+      "secluded": 5,
+      "romantic": 5,
+      "quiet": 5
+    }
+  }
   {
     "id": 5,
-    "name": "Place 5",
-    "description": "This is a dope place",
-    "image": "http://www.planwallpaper.com/static/images/4-Nature-Wallpapers-2014-1_cDEviqY.jpg",
-    "rating": 5
-  },
-  {
-    "id": 6,
-    "name": "Place 6",
-    "description": "This is a dope place",
-    "image": "http://www.planwallpaper.com/static/images/4-Nature-Wallpapers-2014-1_cDEviqY.jpg",
-    "rating": 5
-  },
-  {
-    "id": 7,
-    "name": "Place 7",
-    "description": "This is a dope place",
-    "image": "http://www.planwallpaper.com/static/images/4-Nature-Wallpapers-2014-1_cDEviqY.jpg",
-    "rating": 5
+    "name": "Scripps Swings",
+    "description": "Hidden swings sets located near the Scripps Institute of Oceanography provide a breathtaking view of the Pacific Coast.",
+    "image" : { "/images/sioswings.jpg" },
+    "ratings" : {
+      "overall": 5,
+      "secluded": 5,
+      "romantic": 5,
+      "quiet": 5
+    }
   }
+  {
+    "id": 5,
+    "name": "Munchkin House",
+    "description": "Mt. Soledad house with extremely small features",
+    "image" : { "/images/midgethouse.jpg" },
+    "ratings" : {
+      "overall": 5,
+      "secluded": 5,
+      "romantic": 5,
+      "quiet": 5
+    }
+  }
+
 ]

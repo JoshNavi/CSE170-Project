@@ -24,15 +24,11 @@
 		</div>
 
 		<div class="carousel">
+			{{#each pics}}
 		  <div class="carousel-item">
-				<img class="carousel-img" src="/images/splash1.jpg"></img>
+				<img class="carousel-img" src="{{name}}"></img>
 			</div>
-		  <div class="carousel-item">
-				<img class="carousel-img" src="/images/splash2.jpg"></img>
-			</div>
-		  <div class="carousel-item">
-				<img class="carousel-img" src="/images/splash3.jpg"></img>
-			</div>
+			{{/each}}
 		</div>
 
 		<div>{{req}}</div>
