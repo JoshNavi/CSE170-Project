@@ -22,7 +22,7 @@ exports.view = function(req, res){
         "name": "/images/salk.jpg"
       },
       {
-        "name": "/images/sioswng.jpg"
+        "name": "/images/sioswings.jpg"
       }
     ]
   }
