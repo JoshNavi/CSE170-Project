@@ -37,6 +37,22 @@
 			</div>
 		</div>
 
+		<div class="places" />
+			My places:
+			<br>
+			
+			{{#each profile.places}}
+			<div class="list-place" id="{{id}}">
+				<a href="/places/{{id}}">
+					<img src="{{image}}" />
+					<div class="list-place-name">{{name}}</div>
+				</a>
+				<div class="lis-place-desc">{{description}}</div>
+				<div class="list-place-rating">Overall Rating: {{ratings.overall}}</div>
+			</div>
+			{{/each}}
+		</div>
+
 
 	</div>
 
