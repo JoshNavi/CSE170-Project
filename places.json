@@ -34,7 +34,7 @@
       "romantic": 5,
       "quiet": 5
     }
-  }
+  },
   {
     "id": 4,
     "name": "Salk Institute",
@@ -46,7 +46,7 @@
       "romantic": 5,
       "quiet": 5
     }
-  }
+  },
   {
     "id": 5,
     "name": "Scripps Swings",
@@ -58,7 +58,7 @@
       "romantic": 5,
       "quiet": 5
     }
-  }
+  },
   {
     "id": 5,
     "name": "Munchkin House",
@@ -71,5 +71,4 @@
       "quiet": 5
     }
   }
-
 ]
