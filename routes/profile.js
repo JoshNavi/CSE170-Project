@@ -1,4 +1,4 @@
-var profile = require('../profile.json');
+var profile = require('../users.json');
 
 exports.view = function(req, res){
   var data = {
