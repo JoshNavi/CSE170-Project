@@ -54,6 +54,9 @@ app.get('/places/:id', place.view);
 app.get('/profile', profile.view);
 app.get('/upload', upload.view);
 
+// For posts
+app.post('/places', places.add);
+
 // Example route
 // app.get('/users', user.list);
 
