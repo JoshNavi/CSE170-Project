@@ -1,20 +1,22 @@
 
 var places = require('../places.json');
-var data = {
-  'places': places
-};
+
 
 exports.view = function(req, res){
+  var data = {
+    'places': places,
+    "str": ""
+  };
+
   res.render('places', data);
 };
 
 
 exports.add = function(req, res){
   var data = {
-    "body": req.body,
+    "places": places,
     "str": JSON.Stringify(req.body)
   };
 
-  console.log(data.str);
-  res.render(test, data);
+  res.render('places', data);
 }
