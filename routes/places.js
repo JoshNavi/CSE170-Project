@@ -12,6 +12,9 @@ exports.view = function(req, res){
 
 
 exports.add = function(req, res){
-
+  var data = {
+    'places': places
+  };
+  
   res.render('places', data);
 }
