@@ -2,7 +2,7 @@ function initMap() {
   var myLatLng = {lat:32.878094, lng:-117.237586};
 
   var map = new google.maps.Map(document.getElementById('map'), {
-    zoom: 14,
+    zoom: 13,
     center: myLatLng,
     disableDefaultUI: true
   });
@@ -53,6 +53,9 @@ function initMap() {
       url: "http://projectgooutside.herokuapp.com/places/" + places[i].link
     });
 
+    google.maps.event.addListener(marker, 'click', function() {
+        window.location.href = this.url;
+    });
   }
 
 }
