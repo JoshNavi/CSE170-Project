@@ -9,7 +9,8 @@
 	<link href="/css/bootstrap.min.css" rel="stylesheet">
 	<link href="/css/bootstrap-theme.min.css" rel="stylesheet">
 	<link href="/css/gooutside.css" rel="stylesheet">
-	<link href="/css/place.css" rel="stylesheet">
+	<link href="/css/slick.css" rel="stylesheet" type="text/css"/>
+	<link href="/css/slick-theme.css" rel="stylesheet" type="text/css"/>
 	<link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,600italic,300' rel='stylesheet' type='text/css'>
 
 </head>
@@ -18,41 +19,56 @@
 	<div>
 
 		<div class="navbar">
-			<ul>
-			  <a href="#">
-					<li onclick="history.go(-1);">
-						<img class="back-btn" src="/images/back.svg" />
+			<ul class="left">
+			  <a href="/homepage">
+					<li>
+						GO!outside
 					</li>
 				</a>
+				<ul class="right">
+					<a href="/">
+						<li>
+							Logout
+						</li>
+					</a>
+				</ul>
 			</ul>
 		</div>
 
-		<div class="place-details">
-			<div class="name">
-				{{place.name}}
+		<div class="carousel">
+			{{#each pics}}
+		  <div class="carousel-item">
+				<a href="/places/{{id}}" >
+					<img class="carousel-img" src="{{name}}"></img>
+				</a>
 			</div>
-
-			<img src="{{place.image}}" />
-
-			<div class="description">
-				{{place.description}}
-			</div>
-
-			<div class="rating" />
-				Overall Rating: {{place.ratings.overall}}
-				<br>
-				Secludedness: {{place.ratings.secluded}}
-				<br>
-				Romanticness: {{place.ratings.romantic}}
-				<br>
-				Quietness: {{place.ratings.quiet}}
-			</div>
+			{{/each}}
 		</div>
+
+		<a href="/map">
+			<div class="mat-btn">
+				Map
+			</div>
+		</a>
+
+		<a href="/places">
+			<div class="mat-btn">
+				List
+			</div>
+		</a>
+
+		<a href="/profile">
+			<div class="mat-btn">
+				My Profile
+			</div>
+		</a>
 
 	</div>
 
 	<script src="https://code.jquery.com/jquery.js"></script>
 	<script src="/js/bootstrap.min.js"></script>
 	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<script src="/js/slick.min.js"></script>
+	<script src="/js/homepage.js"></script>
 </body>
 </html>

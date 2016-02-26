@@ -48,6 +48,7 @@ app.get('/', index.view);
 app.get('/login', login.view);
 app.get('/signup', signup.view);
 app.get('/homepage', homepage.view);
+app.get('/homepage2', homepage2.view);
 app.get('/map', map.view);
 app.get('/places', places.view);
 app.get('/places/:id', place.view);

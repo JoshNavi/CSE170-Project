@@ -56,6 +56,7 @@
     "name": "Scripps Swings",
     "description": "Hidden swings sets located near the Scripps Institute of Oceanography provide a breathtaking view of the Pacific Coast.",
     "image" : "/images/sioswings.jpg" ,
+    "loc" : { "lat": 0, "lng": 0 },
     "ratings" : {
       "overall": 5,
       "secluded": 5,
