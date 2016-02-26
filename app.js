@@ -13,6 +13,7 @@ var index = require('./routes/index');
 var login = require('./routes/login');
 var signup = require('./routes/signup');
 var homepage = require('./routes/homepage');
+var experiment = require('./routes/experiment');
 var map = require('./routes/map');
 var places = require('./routes/places');
 var profile = require('./routes/profile');
@@ -53,6 +54,7 @@ app.get('/places', places.view);
 app.get('/places/:id', place.view);
 app.get('/profile', profile.view);
 app.get('/upload', upload.view);
+app.get('/experiment' experiment.view);
 
 // For posts
 app.post('/places', places.add);
