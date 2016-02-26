@@ -4,11 +4,13 @@
 
 .place-details img {
 	display: block;
-	height: 250;
+	height: 250px;
+	margin: auto;
 }
 
 .name{
-
+	color: #4CAF50;
+	font-size: 3em;
 }
 
 .description {
@@ -16,5 +18,5 @@
 }
 
 .rating {
-
+	text-align: right;
 }
