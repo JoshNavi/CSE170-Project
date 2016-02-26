@@ -13,6 +13,7 @@ var index = require('./routes/index');
 var login = require('./routes/login');
 var signup = require('./routes/signup');
 var homepage = require('./routes/homepage');
+var homepage2 = require('./routes/homepage2');
 var map = require('./routes/map');
 var places = require('./routes/places');
 var profile = require('./routes/profile');
