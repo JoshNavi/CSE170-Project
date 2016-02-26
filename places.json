@@ -4,6 +4,7 @@
     "name": "Boulder Bear",
     "description": "Part of the UCSD Stuart Collection, this bear is completely made with boulders from the surrounding San Diego area.",
     "image" : "/images/bear.jpg" ,
+    "loc" : { "lat": 32.881971, "lng": -117.234152 },
     "ratings" : {
       "overall": 5,
       "secluded": 5,
@@ -16,6 +17,7 @@
     "name": "Mushroom House",
     "description": "Located along Black's Beach, this mushroom house was originally called Pavilion and designed as a guest house.",
     "image" : "/images/mushyhouse.jpg" ,
+    "loc" : { "lat": 32.887690, "lng": -117.252916 },
     "ratings" : {
       "overall": 5,
       "secluded": 5,
@@ -28,6 +30,7 @@
     "name": "Red Chair",
     "description": "A large red chair located in the heart of Revelle College",
     "image" : "/images/redchair.jpg" ,
+    "loc" : { "lat": 32.873217, "lng": -117.241254 },
     "ratings" : {
       "overall": 5,
       "secluded": 5,
@@ -40,6 +43,7 @@
     "name": "Salk Institute",
     "description": "A very popular spot for photographers. The institution may look a bit dreary at certain angles, but the immense view of the Pacific and institute's symmetry provide an amazing view",
     "image" : "/images/salk.jpg" ,
+    "loc" : { "lat": 32.887411, "lng": -117.245331 },
     "ratings" : {
       "overall": 5,
       "secluded": 5,
@@ -64,6 +68,7 @@
     "name": "Munchkin House",
     "description": "Mt. Soledad house with extremely small features",
     "image" : "/images/midgethouse.jpg" ,
+    "loc" : { "lat": 32.844426, "lng": -117.256618 },
     "ratings" : {
       "overall": 5,
       "secluded": 5,
