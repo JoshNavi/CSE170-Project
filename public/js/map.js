@@ -50,10 +50,11 @@ function initMap() {
       map: map,
       position: pos,
       title: places[i].name,
+      optimized: false,
       url: "http://projectgooutside.herokuapp.com/places/" + places[i].link
     });
 
-    google.maps.event.addListener(marker, 'click', function() {
+    google.maps.event.addListener(marker, 'mousedown', function() {
         window.location.href = this.url;
     });
   }
