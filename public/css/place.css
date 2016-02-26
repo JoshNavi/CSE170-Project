@@ -4,7 +4,7 @@
 
 .place-details img {
 	display: block;
-	height: 250px;
+	width: 100%
 }
 
 .name{
