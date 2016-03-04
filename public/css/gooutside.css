@@ -126,11 +126,11 @@ a {
 
 .carousel-img {
 	height:250px;
+	width: 250px;
 	overflow: hidden;
 	background-position:center;
 }
 
 .carousel-img img {
-    width: 250px;
     height: 250px;
 }
