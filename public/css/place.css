@@ -4,16 +4,19 @@
 
 .place-details img {
 	display: block;
-	width: 100%
+	width: 100%;
+	padding-bottom: 1em;
 }
 
 .name{
 	color: #689F38;
 	font-size: 3em;
+	text-align: center;
 }
 
 .description {
 	color: whitesmoke;
+	font-size: 1.4em;
 }
 
 .rating {
