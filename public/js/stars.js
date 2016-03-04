@@ -1,4 +1,4 @@
-Handlebars.registerHelper('stars', function(n, block) {
+Handlebars.registerHelper('stars', function(n) {
     var res = '';
 
     for(var i = 0; i < n; ++i) {

@@ -33,9 +33,10 @@
 				<img src="{{image}}" />
 				<div class="list-place-name">{{name}}</div>
 			</a>
-			{{#stars ratings.overall}}
-				<span class="list-place-rating">{{this}}</div>
-			{{/stars}}
+			<div class="list-place-rating">
+				{{#stars ratings.overall}}
+				{{/stars}}
+			</div>
 		</div>
 		{{/each}}
 
