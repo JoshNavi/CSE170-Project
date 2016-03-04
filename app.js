@@ -20,10 +20,30 @@ var upload = require('./routes/upload');
 
 var app = express();
 
+var hbs;
+hbs = handlebars.create({
+// Specify helpers which are only registered on this instance.
+helpers: {
+    stars: function(n) {
+        var res = '';
+
+        for(var i = 0; i < n; ++i) {
+          res += "★";
+        }
+
+        for(var i = 0; i < 5 - n; i++) {
+          res += "☆";
+        }
+
+        return res;
+      }
+    }
+});
+
 // all environments
 app.set('port', process.env.PORT || 3000);
 app.set('views', path.join(__dirname, 'views'));
-app.engine('handlebars', handlebars());
+app.engine('handlebars', hbs.engine);
 app.set('view engine', 'handlebars');
 app.use(express.favicon(__dirname + "/public/images/favicon.ico"));
 app.use(express.logger('dev'));
