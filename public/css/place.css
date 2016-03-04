@@ -20,15 +20,17 @@
 }
 
 .ratings {
+	width: 100%;
 	color: whitesmoke;
 	font-size: 2em;
 	margin-top: 1em;
 }
 
 .criteria {
+	width: 50%;
 	text-align: right;
 }
 
 .stars {
-
+	padding-left: 1em;
 }
