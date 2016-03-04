@@ -16,92 +16,22 @@
 
 <body>
 	<div class="splash">
-		<!-- h1 through h6 are headers. The higher the number, the smaller the header -->
-		<!-- p means paragraph -->
 
 		<div class="form">
 
-      <ul class="tab-group">
-        <li class="tab active"><a href="#login">Log In</a></li>
-        <li class="tab"><a href="#signup">Sign Up</a></li>
-      </ul>
+			<div id="login">
+        <h1>GO!outside</h1>
 
-      <div class="tab-content">
-
-        <div id="login">
-          <h1>GO!outside</h1>
-
-          <form action="/homepage" method="get">
-
-            <div class="field-wrap">
-            <label class="active">
-              Email<span class="req">*</span>
-            </label>
-            <input id="usr" type="email"required autocomplete="off"/>
-          </div>
-
-          <div class="field-wrap">
-            <label class="active">
-              Password<span class="req">*</span>
-            </label>
-            <input id="pw" type="password"required autocomplete="off"/>
-          </div>
-
-          <p class="forgot"><a href="#">Forgot Password?</a></p>
+				<form id="login" action="/homepage" method="get">
 
 					<a href="/homepage">
-	          <button class="button button-block"/>Log In</button>
+	          <button class="button button-block"/>GO!</button>
 					</a>
 
-          </form>
-
-        </div>
-
-        <div id="signup">
-          <h1>Sign Up for Free</h1>
-
-          <form action="/homepage" method="get">
-
-          <div class="top-row">
-            <div class="field-wrap">
-							<label class="active">
-                First Name<span class="req">*</span>
-              </label>
-              <input type="text" required autocomplete="off" />
-            </div>
-
-            <div class="field-wrap">
-							<label class="active">
-                Last Name<span class="req">*</span>
-              </label>
-              <input type="text"required autocomplete="off"/>
-            </div>
-          </div>
-
-          <div class="field-wrap">
-						<label class="active">
-              Email Address<span class="req">*</span>
-            </label>
-            <input type="email"required autocomplete="off"/>
-          </div>
-
-          <div class="field-wrap">
-						<label class="active">
-              Set A Password<span class="req">*</span>
-            </label>
-            <input type="password"required autocomplete="off"/>
-          </div>
-
-          <button type="submit" class="button button-block"/>Get Started</button>
-
-          </form>
-
-        </div>
-
-
-      </div><!-- tab-content -->
-
+      	</form>
+    	</div>
 		</div> <!-- /form -->
+
 
 
 	</div>
