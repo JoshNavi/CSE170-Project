@@ -21,6 +21,7 @@ exports.add = function(req, res){
     "name": req.body.name,
     "description": req.body.description,
     "image" : req.body.image,
+    "loc" : { "lat": req.body.lat, "lng": req.body.lng },
     "ratings" : {
       "overall": req.body.overall,
       "secluded": req.body.secluded,
