@@ -2,6 +2,11 @@
 	font-family: 'Titillium Web', sans-serif;
 }
 
+body {
+	margin-top: 4em;
+	padding: 0 1em;
+}
+
 a {
 	text-decoration: none;
 }
