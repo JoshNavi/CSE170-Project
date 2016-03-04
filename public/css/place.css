@@ -19,6 +19,16 @@
 	font-size: 1.4em;
 }
 
-.rating {
+.ratings {
 	color: whitesmoke;
+	font-size: 2em;
+	margin-top: 1em;
+}
+
+.criteria {
+	text-align: right;
+}
+
+.stars {
+
 }
