@@ -17,7 +17,7 @@ function initializePage() {
 	  centerPadding: '60px',
 	  slidesToShow: 1,
 		slidesToScroll: 1,
-		autoplay: true,
+		autoplay: false,
 		variableWidth: true,
 		autoplaySpeed: 2000,
 	  responsive: [
