@@ -10,10 +10,10 @@ var handlebars = require('express3-handlebars')
 
 // routes
 var index = require('./routes/index');
-ar homepage = require('./routes/homepage');
+var homepage = require('./routes/homepage');
 var map = require('./routes/map');
 var places = require('./routes/places');
-ar place = require('./routes/place');
+var place = require('./routes/place');
 var upload = require('./routes/upload');
 // Example route
 // var user = require('./routes/user');
