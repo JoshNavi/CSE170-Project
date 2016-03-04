@@ -35,36 +35,33 @@
 			</ul>
 		</div>
 
-		<div class="container">
-			<div class="carousel">
-				{{#each pics}}
-			  <div class="carousel-item">
-					<a href="/places/{{id}}" >
-						<img class="carousel-img" src="{{name}}"></img>
-					</a>
-				</div>
-				{{/each}}
+		<div class="carousel">
+			{{#each pics}}
+		  <div class="carousel-item">
+				<a href="/places/{{id}}" >
+					<img class="carousel-img" src="{{name}}"></img>
+				</a>
 			</div>
-
-			<a href="/map">
-				<div class="mat-btn">
-					Map
-				</div>
-			</a>
-
-			<a href="/places">
-				<div class="mat-btn">
-					List
-				</div>
-			</a>
-
-			<a href="/upload">
-				<div class="mat-btn">
-					Upload New Spot
-				</div>
-			</a>
-
+			{{/each}}
 		</div>
+
+		<a href="/map">
+			<div class="mat-btn">
+				Map
+			</div>
+		</a>
+
+		<a href="/places">
+			<div class="mat-btn">
+				List
+			</div>
+		</a>
+
+		<a href="/upload">
+			<div class="mat-btn">
+				Upload New Spot
+			</div>
+		</a>
 	</div>
 
 	<script src="https://code.jquery.com/jquery.js"></script>
