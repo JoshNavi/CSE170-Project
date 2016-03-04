@@ -22,7 +22,7 @@
 .ratings {
 	width: 100%;
 	color: whitesmoke;
-	font-size: 1.3em;
+	font-size: 1.5em;
 	margin-top: 1em;
 }
 
@@ -33,4 +33,5 @@
 
 .stars {
 	padding-left: 1em;
+	color: #689F38;
 }
