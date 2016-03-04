@@ -6,9 +6,9 @@
     "image" : "/images/bear.jpg" ,
     "loc" : { "lat": 32.881971, "lng": -117.234152 },
     "ratings" : {
-      "overall": 5,
+      "overall": 4,
       "secluded": 5,
-      "romantic": 5,
+      "romantic": 3,
       "quiet": 5
     }
   },
@@ -32,9 +32,9 @@
     "image" : "/images/redchair.jpg" ,
     "loc" : { "lat": 32.873217, "lng": -117.241254 },
     "ratings" : {
-      "overall": 5,
+      "overall": 3,
       "secluded": 5,
-      "romantic": 5,
+      "romantic": 1,
       "quiet": 5
     }
   },
