@@ -6,22 +6,25 @@
 	margin: 1rem auto;
 	position: relative;
 	width: 100%;
-	/*box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);*/
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	padding-bottom: 2em;
+	background-color: whitesmoke;
 }
 
 .list-place img {
 	width: 100%;
+	padding: 10px;
 }
 
 .list-place-name {
+	text-align: center;
 	font-size: 2em;
 	font-weight: 700;
 	color: #689F38;
 }
 
 .list-place-rating {
+	text-align: center;
  font-size: 1em;
  font-weight: 200;
  color: gray;
