@@ -19,6 +19,11 @@
 	font-size: 1.1em;
 }
 
+.description a {
+	text-decoration: none;
+	color: inherit;
+}
+
 .ratings {
 	width: 100%;
 	color: whitesmoke;
